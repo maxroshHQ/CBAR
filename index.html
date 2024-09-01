@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBAR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="loader">
+        <div class="loader"></div>
+      </div>
+    <div class="container">
+        <h2>Welcome!</h2>
+        <div class="form-container">
+        <label for="nameInput">Username:</label>
+        <input type="text" id="nameInput" placeholder="Enter your name">
+        <label for="profilePicInput">Userprofile:</label>
+        <input type="file" id="profilePicInput" accept="image/*">
+        <button onclick="saveProfile()">SIGN UP</button>
+        <br><br>
+        <center>OR</center>
+        <br>
+        <button onclick="redirectToPage()">SIGN IN</button>
+        </div></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
